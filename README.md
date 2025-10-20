@@ -73,7 +73,8 @@ Most frequent measurement: 8
 Measured phase: 0.25
 Extracted period (p): 4
 Factors found: {3, 5}
-Simulation successful. Histogram saved to shor_histogram.png.```
+Simulation successful. Histogram saved to shor_histogram.png.
+```
 
 And a plot file `shor_histogram.png` will be generated, showing clear peaks at outcomes 0, 8, 16, and 24.
 
