@@ -28,7 +28,7 @@ To set up a local environment and run this simulation, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/Shors_Algorithm_Simulation_MAHTI.git
+    git clone https://github.com/alimuneeb24/Shors_Algorithm_Simulation_MAHTI.git
     cd Shors_Algorithm_Simulation_MAHTI
     ```
 
@@ -68,15 +68,17 @@ The script will perform the following actions:
 You should see console output similar to this:
 
 ```
-Executing Shor's algorithm for N=15 and a=7...
-Most frequent measurement: 8
-Measured phase: 0.25
-Extracted period (p): 4
-Factors found: {3, 5}
-Simulation successful. Histogram saved to shor_histogram.png.
+Building quantum circuit...
+Circuit diagram saved as shor_circuit_N15_i7.png
+Circuit built. Simulating on AerSimulator...
+Simulation complete.
+Generating plots...
+Histogram saved as shor_histogram_N15_i7.png
+Probability plot saved as shor_probabilities_N15_i7.png
+
 ```
 
-And a plot file `shor_histogram.png` will be generated, showing clear peaks at outcomes 0, 8, 16, and 24.
+And a plot file with a name similar to `shor_histogram.png` will be generated, showing clear peaks at outcomes 0, 8, 16, and 24.
 
 ## Citation
 
@@ -98,7 +100,7 @@ If you use this code or the associated research in your work, please cite both t
 
 ### Citing the Paper
 
-> [the full APA citation for your paper will be pasted here once it is published.]
+> [the full APA citation for the paper will be pasted here once it is published.]
 
 ## License
 
