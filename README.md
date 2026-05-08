@@ -77,9 +77,6 @@ Histogram saved as shor_histogram_N15_i7.png
 Probability plot saved as shor_probabilities_N15_i7.png
 
 ```
-
-And a plot file with a name similar to `shor_histogram.png` will be generated, showing clear peaks at outcomes 0, 8, 16, and 24.
-
 ## Citation
 
 If you use this code or the associated research in your work, please cite both the repository and the research article.
