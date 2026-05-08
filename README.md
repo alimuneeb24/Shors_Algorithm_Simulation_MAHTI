@@ -1,6 +1,6 @@
 # Shor's Algorithm Simulation on MAHTI
 
-This repository contains the Python source code for the simulation of Shor's quantum factoring algorithm, as detailed in the research article [my article will be pasted here]. The code is built using the Qiskit framework and was developed to factor the integer N=15 as a proof-of-concept for establishing a quantum simulation environment on the Finnish CSC's MAHTI supercomputer.
+This repository contains the Python source code for the simulation of Shor's quantum factoring algorithm, as detailed in the research article. The code is built using the Qiskit framework and was developed to factor the integer N=15 as a proof-of-concept for establishing a quantum simulation environment on the Finnish CSC's MAHTI supercomputer.
 
 This implementation served as the cornerstone for a pilot project at Jamk University of Applied Sciences to validate a reusable high-performance computing (HPC) workflow for quantum simulations.
 
