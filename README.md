@@ -57,7 +57,7 @@ python run_shor_simulation.py
 ```
 
 The script will perform the following actions:
-1.  Construct the 9-qubit quantum circuit for Shor's algorithm with N=15 and a=7.
+1.  Construct the 9-qubit quantum circuit for Shor's algorithm with N=15 and i=7.
 2.  Execute the circuit on the Qiskit `AerSimulator` for 2048 shots.
 3.  Print the most frequent measurement outcome and the calculated period.
 4.  Print the successfully computed factors (3 and 5) to the console.
@@ -67,7 +67,7 @@ The script will perform the following actions:
 
 You should see console output similar to this:
 
-```
+```bash
 Building quantum circuit...
 Circuit diagram saved as shor_circuit_N15_i7.png
 Circuit built. Simulating on AerSimulator...
